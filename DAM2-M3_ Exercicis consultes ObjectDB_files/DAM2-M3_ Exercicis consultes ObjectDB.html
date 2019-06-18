@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)http://www.institutmarianao.cat/moodle2/mod/page/view.php?id=38252 -->
+<html dir="ltr" lang="ca" xml:lang="ca" class="yui3-js-enabled"><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>DAM2-M3: Exercicis consultes ObjectDB</title>
+    <link rel="shortcut icon" href="http://www.institutmarianao.cat/moodle2/theme/image.php/cerulean_marianao/theme/1518706744/favicon">
+    
+<meta name="keywords" content="moodle, DAM2-M3: Exercicis consultes ObjectDB">
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/www.institutmarianao.cat\/moodle2","sesskey":"bEGVb1FKLH","loadingicon":"http:\/\/www.institutmarianao.cat\/moodle2\/theme\/image.php\/cerulean_marianao\/core\/1518706744\/i\/loading_small","themerev":"1518706744","slasharguments":1,"theme":"cerulean_marianao","jsrev":"1518706744","admin":"admin","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"http:\/\/www.institutmarianao.cat\/moodle2\/lib\/yuilib\/3.17.2\/","comboBase":"http:\/\/www.institutmarianao.cat\/moodle2\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/www.institutmarianao.cat\/moodle2\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/www.institutmarianao.cat\/moodle2\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/www.institutmarianao.cat\/moodle2\/theme\/yui_combo.php?m\/1518706744\/","combine":true,"comboBase":"http:\/\/www.institutmarianao.cat\/moodle2\/theme\/yui_combo.php?","ext":false,"root":"m\/1518706744\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core_availability-form":{"requires":["base","node","event","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-calendar-info":{"requires":["base","node","event-mouseenter","event-key","overlay","moodle-calendar-info-skin"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-passwordunmask":{"requires":["node","base"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-core_message-messenger":{"requires":["escape","handlebars","io-base","moodle-core-notification-ajaxexception","moodle-core-notification-alert","moodle-core-notification-dialogue","moodle-core-notification-exception"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-util":{"requires":["node"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-theme_archaius-archaius":{"requires":["base"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"http:\/\/www.institutmarianao.cat\/moodle2\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"http:\/\/www.institutmarianao.cat\/moodle2\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1518706744\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/www.institutmarianao.cat\/moodle2\/lib\/javascript.php\/1518706744\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="./DAM2-M3_ Exercicis consultes ObjectDB_files/combo"><script type="text/javascript" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/combo(1)"></script><script charset="utf-8" id="yui_3_17_2_2_1526286470978_17" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/combo(2)" async=""></script><link charset="utf-8" rel="stylesheet" id="yui_3_17_2_2_1526286470978_92" href="./DAM2-M3_ Exercicis consultes ObjectDB_files/combo(3)"><script charset="utf-8" id="yui_3_17_2_2_1526286470978_93" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/combo(4)" async=""></script><script charset="utf-8" id="yui_3_17_2_2_1526286470978_133" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/combo(5)" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="./DAM2-M3_ Exercicis consultes ObjectDB_files/styles.php">
+<script type="text/javascript" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/javascript.php"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/requirejs.php"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jqueryprivate" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/javascript(1).php"></script><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/javascript(2).php"></script></head>
+
+<body id="page-mod-page-view" class="format-topics  path-mod path-mod-page safari dir-ltr lang-ca yui-skin-sam yui3-skin-sam www-institutmarianao-cat--moodle2 pagelayout-incourse course-2 context-42932 cmid-38252 category-5 has-region-side-pre used-region-side-pre has-region-side-post empty-region-side-post side-pre-only jsenabled">
+
+<div class="skiplinks"><a class="skip" href="http://www.institutmarianao.cat/moodle2/mod/page/view.php?id=38252#maincontent">Vés al contingut principal</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<nav role="navigation" class="navbar navbar-default">
+    <div class="container-fluid">
+    <div class="navbar-header pull-left">
+        <a class="navbar-brand" href="http://www.institutmarianao.cat/moodle2">Institut Marianao. Moodle 2.0</a>
+    </div>
+    <div class="navbar-header pull-right">
+        <ul class="nav pull-left usermenu loggedin" role="menubar"><li class="dropdown"><a href="http://www.institutmarianao.cat/moodle2/mod/page/view.php?id=38252#" class="dropdown-toggle" data-toggle="dropdown" title="miquel  martin leiva"><span class="username hidden-sm">miquel  martin leiva</span><span class="picspan"><img src="./DAM2-M3_ Exercicis consultes ObjectDB_files/f2.png" alt="Imatge miquel  martin leiva" title="Imatge miquel  martin leiva" class="userpicture defaultuserpic" width="30" height="30"></span><b class="caret"></b></a><ul class="dropdown-menu pull-right"><li><a class="Tauler" title="Tauler" href="http://www.institutmarianao.cat/moodle2/my"><span class="iconwrapper"><i class="glyphicon glyphicon-dashboard"></i></span>Tauler</a></li><li class="divider" role="presentation"></li><li><a class="Perfil" title="Perfil" href="http://www.institutmarianao.cat/moodle2/user/profile.php?id=873"><span class="iconwrapper"><i class="glyphicon glyphicon-user"></i></span>Perfil</a></li><li><a class="Qualificacions" title="Qualificacions" href="http://www.institutmarianao.cat/moodle2/grade/report/overview/index.php"><span class="iconwrapper"><i class="glyphicon glyphicon-list-alt"></i></span>Qualificacions</a></li><li><a class="Missatges" title="Missatges" href="http://www.institutmarianao.cat/moodle2/message/index.php"><span class="iconwrapper"><i class="glyphicon glyphicon-inbox"></i></span>Missatges</a></li><li><a class="Preferències" title="Preferències" href="http://www.institutmarianao.cat/moodle2/user/preferences.php"><span class="iconwrapper"><i class="glyphicon glyphicon-cog"></i></span>Preferències</a></li><li class="divider" role="presentation"></li><li><a class="Surt" title="Surt" href="http://www.institutmarianao.cat/moodle2/login/logout.php?sesskey=bEGVb1FKLH&amp;alt=logout"><span class="iconwrapper"><i class="glyphicon glyphicon-sign-out"></i></span>Surt</a></li></ul></li></ul>        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#moodle-navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="moodle-navbar" class="navbar-collapse collapse navbar-right">
+        <ul class="nav navbar-nav pull-right"></ul>        <ul class="nav pull-right">
+            <li></li>
+        </ul>
+    </div>
+    
+    </div>
+</nav>
+<header class="moodleheader">
+    <div class="container-fluid">
+    <a href="http://www.institutmarianao.cat/moodle2" class="logo"></a>
+    <h1>DAW/DAM 2. M3 Programació</h1>    </div>
+</header>
+
+<div id="page" class="container-fluid">
+    <header id="page-header" class="clearfix">
+        <div id="page-navbar" class="clearfix">
+            <nav class="breadcrumb-nav" role="navigation" aria-label="breadcrumb"><ol class="breadcrumb"><li><a href="http://www.institutmarianao.cat/moodle2/my/">Tauler</a></li><li><a href="http://www.institutmarianao.cat/moodle2/course/index.php?categoryid=2">Cicles Formatius</a></li><li><a href="http://www.institutmarianao.cat/moodle2/course/index.php?categoryid=4">CF de Grau Superior</a></li><li><a href="http://www.institutmarianao.cat/moodle2/course/index.php?categoryid=5">Informàtica</a></li><li><a title="DAW/DAM 2. M3 Programació" href="http://www.institutmarianao.cat/moodle2/course/view.php?id=2">DAW/DAM 2. M3 Programació</a></li><li><span tabindex="0">Tema 3</span></li><li><a title="Pàgina" href="http://www.institutmarianao.cat/moodle2/mod/page/view.php?id=38252">Exercicis consultes ObjectDB</a></li></ol></nav>
+            <div class="breadcrumb-button"></div>
+        </div>
+
+        <div id="course-header">
+                    </div>
+    </header>
+
+    <div id="page-content" class="row">
+        <div id="region-main" class="col-sm-9 col-sm-push-3 col-lg-10 col-lg-push-2">
+            <div role="main" id="yui_3_17_2_2_1526286470978_140"><span id="maincontent"></span><h2>Exercicis consultes ObjectDB</h2><div class="box generalbox center clearfix" id="yui_3_17_2_2_1526286470978_139"><div class="no-overflow" id="yui_3_17_2_2_1526286470978_138"><p></p>
+<h4>INICIALS</h4>
+<ol id="yui_3_17_2_2_1526286470978_137">
+<li>Consultar total, màxim, mínima i mitjana puntuacions de preguntes</li>
+<li>Consultar preguntes que continguin el text "cert" ordenades per puntuació</li>
+<li>Consultar preguntes verdader o fals que continguin el text "cert" i puntuació inferior o igual a 1</li>
+<li id="yui_3_17_2_2_1526286470978_136">Consultar preguntes que text de més de 50 caràcters, ordenades per mida del text</li>
+<li>Consultar total de preguntes agrupades per puntuació</li>
+<li>Consultar els noms dels estudiants dels lliuraments ordenats per nom</li>
+<li>Consultar els noms dels estudiants en majúscules i els cognoms en minúscules ordenats per edat</li>
+<li>Consultar 10 primers caràcters del text de les preguntes ordenats per puntuació descendent</li>
+<li>Consultar 10 darrers caràcters del text de les preguntes ordenats per puntuació ascendent</li>
+<li>Consulta el text de les preguntes traient espais del principi i del final</li>
+<li>Consulta el text de les preguntes traient els caràcters ': ' del final</li>
+<li>Consulta el text de les preguntes de Verdader Fals traient el&nbsp;caràcter '-' del principi</li>
+<li>Consultar els lliuraments de tots els alumnes amb nom el següent patró '_a%'</li>
+<li>Consultar les preguntes amb puntuació entre 1 i 1.5 inclosos ordenades per text</li>
+<li>Consultar exàmens (mòdul i títol de la unitat formativa) i la suma de les puntuacions de les seves preguntes ordenats per puntuació descendent</li>
+</ol>
+<p></p>
+<h4>PARÀMETRES</h4>
+<ol>
+<li>Consultar total de preguntes agrupades per puntuació sempre que el total de preguntes sigui &gt; PARAM, on PARAM és un paràmetre variable</li>
+<li>Consultar preguntes verdader o fals que continguin el text PARAM1 i puntuació inferior o igual a PARAM2, on PARAM1 i PARAM2 és un paràmetre variable (Feu servir la opció de paràmetres numerats: 1, 2, ..)</li>
+<li>Consultar preguntes que text de més de PARAM caràcters, ordenades per mida del text, on PARAM és un paràmetre variable</li>
+<li>Consultar les preguntes amb puntuació entre 1 i 1.5 inclosos ordenades per text</li>
+</ol>
+<h4><br><br>PAGINACIÓ</h4>
+<ol>
+<li>Per una mida de pàgina de 3, obtenir la primera pàgina de la consulta dels noms, cognoms i edat dels estudiants ordenats per longitud de nom+cognoms</li>
+<li>Obtenir la segona pagina de la consulta anterior</li>
+<li>Obtenir la darrera pagina de la consulta anterior</li>
+</ol>
+<h4><br>JOIN</h4>
+<ol>
+<li>Consultar el nom, cognoms i edat dels alumnes i la nota dels diferents Lliuraments ordenats per nota</li>
+<li>Consultar TOTS els exàmens i les seves preguntes si escau. Cal mostrar cicle i número de la Unitat Formativa de l'examen i el text i la puntuació de la pregunta. Ordenat per cicle i número</li>
+<li>Consultar preguntes dels exàmens que tinguin puntuació superior a PARAM1, on PARAM és un paràmetre variable. Cal mostrar cicle i número de la Unitat Formativa de l'examen i el text i la puntuació de la pregunta. Ordenat per puntuació descendent</li>
+<li>Consultar lliuraments d'exàmens amb més de PARAM preguntes, on PARAM és un paràmetre variable. Cal mostrar cicle i número de la Unitat Formativa de l'examen, el total de preguntes de l'examen i el nom,cognoms i edat de l'alumne que ha fet el lliurament. Ordenat pel total de preguntes de l'examen i per nom i cognoms de l'alumne.</li>
+</ol>
+<h4><br><br>NAMED QUERYS</h4>
+<ol>
+<li>Crear NamedQuerys "<strong>findAll</strong>" a <strong>totes les classes</strong> per consultar totes les instàncies: Estudiant, Lliurament, Examen, UnitatFormativa, Pregunta, PreguntaOberta, PreguntaVerdaderFals</li>
+<li>Crear NamedQuery "<strong>findByEdat</strong>" a la classe <strong>Estudiant</strong> que permeti consultar estudiants majors d'un cert valor indicat per paràmetre</li>
+<li>Crear NamedQuery "<strong>findBetweenNotes</strong>" a la classe <strong>Lliurament</strong> que permeti consultar lliuraments amb nota entre 2 valors indicats per paràmetre</li>
+</ol>
+<p></p>
+<p></p>
+<h4>SOLUCIONS</h4>
+<p></p>
+<pre>1. CONSULTA 1 - total, màxim, mínima i mitjana puntuacions
+
+strQuery = "SELECT COUNT(p), MAX(p.puntuacio), "
+ 	 + "MIN(p.puntuacio),  AVG(p.puntuacio) FROM Pregunta p";
+TypedQuery&lt;Object[]&gt; query = em.createQuery(strQuery, Object[].class);
+List&lt;Object[]&gt; resultats = query.getResultList();
+for (Object[] resultat : resultats) {
+	System.out.println(resultat[0]);
+	System.out.println(resultat[1]);
+	System.out.println(resultat[2]);
+	System.out.println(resultat[3]);
+}
+
+</pre>
+<p></p>
+<pre>2. CONSULTA 2 - Consultar preguntes que continguin el text \"cert\" ordenades per puntuació
+
+
+strQuery = "SELECT p FROM Pregunta p "
+	 + "WHERE p.text LIKE '%cert%' ORDER BY p.puntuacio ";
+TypedQuery<pregunta> query = em.createQuery(strQuery, Pregunta.class);
+List<pregunta> resultats = query.getResultList();
+for (Pregunta resultat : resultats) {
+	System.out.println(resultat.text);
+}
+</pregunta></pregunta></pre>
+<pre>3. CONSULTA 3 - Consultar preguntes verdader o fals que continguin el text \"cert\" i puntuació inferior o igual a 1
+
+strQuery = "SELECT p FROM PreguntaVerdaderFals p "
+	 + "WHERE p.text LIKE '%cert%' AND "
+	 + "p.puntuacio &lt;= 1";
+TypedQuery<pregunta> query = em.createQuery(strQuery, Pregunta.class);
+List<pregunta> resultats = query.getResultList();
+
+for (Pregunta resultat : resultats) {
+	System.out.println(resultat.getText());
+}
+</pregunta></pregunta></pre>
+<p></p>
+<pre>1. CONSULTA PARAMS 1 - Consultar total de preguntes agrupades per puntuació
+		       sempre que el total de preguntes sigui &gt; PARAM,
+		       on PARAM és un paràmetre variable
+
+strQuery  = "SELECT p.puntuacio, COUNT(p) FROM Pregunta p ";
+strQuery += " GROUP BY p.puntuacio";
+strQuery += " HAVING(COUNT(p)) &gt; :total ";
+TypedQuery&lt;Object[]&gt; query = em.createQuery(strQuery, Object[].class);
+query.setParameter("total", 0);
+List&lt;Object[]&gt; resultats = query.getResultList();
+
+for (Object[] resultat : resultats) {
+	System.out.println(resultat[0]+" "+resultat[1]);
+}
+}
+
+</pre>
+<p></p>
+<pre>2. CONSULTA PARAMS 2 - Consultar total de preguntes agrupades per puntuació
+		       sempre que el total de preguntes sigui &gt; PARAM,
+		       on PARAM és un paràmetre variable
+
+strQuery  = "SELECT p, COUNT(p.puntuacio) FROM Pregunta p ";
+strQuery += " GROUP BY p, COUNT(p.puntuacio)";
+strQuery += " HAVING(COUNT(p.puntuacio)) &gt; :param ";
+TypedQuery&lt;Object[]&gt; query = em.createQuery(strQuery, Object[].class);<br>query.setParameter("param", 2);
+List&lt;Object[]&gt; resultats = query.getResultList();
+
+for (Object[] resultat : resultats) {
+	System.out.println(resultat[0]+" "+resultat[1]);
+}
+
+
+</pre>
+<p></p>
+<pre>1. CONSULTA PAGINACIO 1 - Per una mida de pàgina de 3, obtenir la primera pàgina
+		          de la consulta dels noms, cognoms i edat dels estudiants
+		          ordenats per longitud de nom+cognoms
+
+strQuery  = "SELECT e.nom, e.cognoms, e.edat FROM Estudiant e ";
+strQuery += " ORDER BY LENGTH(CONCAT(nom, cognoms)) ";
+TypedQuery&lt;Object[]&gt; query = em.createQuery(strQuery, Object[].class);
+query.setFirstResult((page-1)*pageSize).setMaxResults(3);
+List&lt;Object[]&gt; resultats = query.getResultList();
+
+for (Object[] resultat : resultats) {
+	System.out.println(resultat[0]+" "+resultat[1]+" "+resultat[2]);
+}
+
+</pre>
+<p></p>
+<pre>1. CONSULTA JOIN 1 - Consultar el nom, cognoms i edat dels alumnes
+		     i la nota dels diferents Lliuraments
+		     ordenats per nota
+
+strQuery  = "SELECT e.nom, e.cognoms, e.edat, l.nota  ";
+strQuery += " FROM Lliurament l INNER JOIN l.estudiant e ";
+strQuery += " ORDER BY l.nota ";
+TypedQuery&lt;Object[]&gt; query = em.createQuery(strQuery, Object[].class);
+List&lt;Object[]&gt; resultats = query.getResultList();
+
+for (Object[] resultat : resultats) {
+	System.out.println(resultat[0]+" "+resultat[1]+" "+resultat[2]+" "+resultat[3]);
+}
+
+</pre>
+<p></p></div></div><div class="modified">Darrera modificació: dimecres, 25 abril 2018, 18:42</div></div>        </div>
+
+        <aside id="block-region-side-pre" class="col-sm-3 col-sm-pull-9 col-lg-2 col-lg-pull-10 block-region" data-blockregion="side-pre" data-droptarget="1"><a href="http://www.institutmarianao.cat/moodle2/mod/page/view.php?id=38252#sb-1" class="skip-block">Omet Navegació</a><div id="inst4" class="block_navigation  block" role="navigation" data-block="navigation" data-instanceid="4" aria-labelledby="instance-4-header" data-dockable="1"><div class="header"><div class="title" id="yui_3_17_2_2_1526286470978_105"><div class="block_action"><img class="block-hider-hide" alt="Oculta bloc Navegació" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/switch_minus.svg" tabindex="0" title="Oculta bloc Navegació"><img class="block-hider-show" alt="Mostra bloc Navegació" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/switch_plus.svg" tabindex="0" title="Mostra bloc Navegació"><input type="image" class="moveto customcommand requiresjs" alt="Minimitza a la barra lateral" title="Acobla el bloc Navegació" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/block_to_dock.svg"></div><h2 id="instance-4-header">Navegació</h2></div></div><div class="content"><ul class="block_tree list"><li class="type_unknown depth_1 contains_branch" aria-expanded="true"><p class="tree_item branch canexpand navigation_node"><a href="http://www.institutmarianao.cat/moodle2/my/">Tauler</a></p><ul><li class="type_setting depth_2 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://www.institutmarianao.cat/moodle2/?redirect=0"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">Pàgina d'inici</span></a></p></li><li class="type_course depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span title="Moodle Institut Marianao de Sant Boi de Llobregat" tabindex="0">Pàgines del lloc</span></p><ul><li class="type_unknown depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://www.institutmarianao.cat/moodle2/blog/index.php"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">Blogs del lloc</span></a></p></li><li class="type_setting depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://www.institutmarianao.cat/moodle2/tag/search.php"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">Etiquetes</span></a></p></li><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://www.institutmarianao.cat/moodle2/calendar/view.php?view=month"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">Calendari</span></a></p></li></ul></li><li class="type_system depth_2 contains_branch" aria-expanded="true"><p class="tree_item branch"><span tabindex="0">Curs actual</span></p><ul><li class="type_course depth_3 contains_branch" aria-expanded="true"><p class="tree_item branch canexpand"><a title="DAW/DAM 2. M3 Programació" href="http://www.institutmarianao.cat/moodle2/course/view.php?id=2">DAW/DAM 2. M3 Programació</a></p><ul><li class="type_unknown depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><a href="http://www.institutmarianao.cat/moodle2/user/index.php?id=2">Participants</a></p><ul><li class="type_setting depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://www.institutmarianao.cat/moodle2/blog/index.php?courseid=2"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">Blogs del curs</span></a></p></li><li class="type_user depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://www.institutmarianao.cat/moodle2/user/view.php?id=873&amp;course=2"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">miquel  martin leiva</span></a></p></li></ul></li><li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_30_1" data-expandable="1" data-loaded="0"><span tabindex="0">General</span></p></li><li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_30_2" data-expandable="1" data-loaded="0"><span tabindex="0">Tema 1</span></p></li><li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_30_3" data-expandable="1" data-loaded="0"><span tabindex="0">Tema 2</span></p></li><li class="type_structure depth_4 contains_branch" aria-expanded="true"><p class="tree_item branch"><span tabindex="0">Tema 3</span></p><ul><li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="Pàgina" href="http://www.institutmarianao.cat/moodle2/mod/page/view.php?id=29743"><img class="smallicon navicon" alt="Pàgina" title="Pàgina" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/icon.svg"><span class="item-content-wrap">ObjectDB</span></a></p></li><li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="Fitxer" href="http://www.institutmarianao.cat/moodle2/mod/resource/view.php?id=37987"><img class="smallicon navicon" alt="Fitxer" title="Fitxer" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/pdf-24.png"><span class="item-content-wrap">ObjectDB 2.0 Developer's Guide</span></a></p></li><li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="Fitxer" href="http://www.institutmarianao.cat/moodle2/mod/resource/view.php?id=38215"><img class="smallicon navicon" alt="Fitxer" title="Fitxer" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/sourcecode-24.png"><span class="item-content-wrap">Java Exemples de consultes ObjectDB (Examens)</span></a></p></li><li class="type_activity depth_5 item_with_icon current_branch"><p class="tree_item leaf hasicon active_tree_node"><a title="Pàgina" href="http://www.institutmarianao.cat/moodle2/mod/page/view.php?id=38252"><img class="smallicon navicon" alt="Pàgina" title="Pàgina" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/icon.svg"><span class="item-content-wrap">Exercicis consultes ObjectDB</span></a></p></li><li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="Tasca" href="http://www.institutmarianao.cat/moodle2/mod/assign/view.php?id=38368"><img class="smallicon navicon" alt="Tasca" title="Tasca" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/icon(1).svg"><span class="item-content-wrap">Activitat Pt1 - UF6</span></a></p></li><li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="Tasca" href="http://www.institutmarianao.cat/moodle2/mod/assign/view.php?id=38394"><img class="smallicon navicon" alt="Tasca" title="Tasca" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/icon(1).svg"><span class="item-content-wrap">Prova UF6 201718 Pe1</span></a></p></li></ul></li></ul></li></ul></li><li class="type_system depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch mail_root"><span tabindex="0">El meu correu</span></p><ul><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://www.institutmarianao.cat/moodle2/local/mail/create.php?c=2&amp;sesskey=bEGVb1FKLH"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">Redacta</span></a></p></li><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon mail_inbox"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=inbox"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">Safata d'entrada</span></a></p></li><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=starred"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">Destacats</span></a></p></li><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon mail_drafts"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=drafts"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">Esborranys (1)</span></a></p></li><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=sent"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">Enviats</span></a></p></li><li class="type_unknown depth_3 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Cursos</span></p><ul><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon mail_course_313"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=course&amp;c=313"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">DAW2-M02</span></a></p></li><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon mail_course_308"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=course&amp;c=308"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">DAW2-M09</span></a></p></li><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon mail_course_292"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=course&amp;c=292"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">DAW2-TUT</span></a></p></li><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon mail_course_284"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=course&amp;c=284"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">DAW2 M6</span></a></p></li><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon mail_course_283"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=course&amp;c=283"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">DAW2-M07</span></a></p></li><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon mail_course_279"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=course&amp;c=279"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">M8-DAW2</span></a></p></li><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon mail_course_112"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=course&amp;c=112"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">DAM2-Java</span></a></p></li><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon mail_course_5"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=course&amp;c=5"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">DAM1-M5</span></a></p></li><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon mail_course_20"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=course&amp;c=20"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">ASIX2-TUT</span></a></p></li><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon mail_course_2"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=course&amp;c=2"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">DAM2-M3</span></a></p></li></ul></li><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://www.institutmarianao.cat/moodle2/local/mail/view.php?t=trash"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">Paperera</span></a></p></li><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://www.institutmarianao.cat/moodle2/local/mail/preferences.php"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/navigationitem.svg"><span class="item-content-wrap">Preferències</span></a></p></li></ul></li><li class="type_system depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_0_mycourses" data-expandable="1" data-loaded="0"><span tabindex="0">Els meus cursos</span></p></li></ul></li></ul></div></div><span id="sb-1" class="skip-block-to"></span><a href="http://www.institutmarianao.cat/moodle2/mod/page/view.php?id=38252#sb-2" class="skip-block">Omet Administració</a><div id="inst5" class="block_settings  block" role="navigation" data-block="settings" data-instanceid="5" aria-labelledby="instance-5-header" data-dockable="1"><div class="header"><div class="title" id="yui_3_17_2_2_1526286470978_121"><div class="block_action"><img class="block-hider-hide" alt="Oculta bloc Administració" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/switch_minus.svg" tabindex="0" title="Oculta bloc Administració"><img class="block-hider-show" alt="Mostra bloc Administració" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/switch_plus.svg" tabindex="0" title="Mostra bloc Administració"><input type="image" class="moveto customcommand requiresjs" alt="Minimitza a la barra lateral" title="Acobla el bloc Administració" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/block_to_dock.svg"></div><h2 id="instance-5-header">Administració</h2></div></div><div class="content"><div id="settingsnav" class="box block_tree_box"><ul class="block_tree list"><li class="type_course collapsed contains_branch" aria-expanded="false"><p class="tree_item branch root_node"><span tabindex="0">Administració del curs</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://www.institutmarianao.cat/moodle2/enrol/self/unenrolself.php?enrolid=882"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/user.svg">Cancel·la la meva inscripció en DAM2-M3</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://www.institutmarianao.cat/moodle2/grade/report/index.php?id=2"><img class="smallicon navicon" alt="" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/grades.svg">Qualificacions</a></p></li></ul></li></ul></div></div></div><span id="sb-2" class="skip-block-to"></span></aside>        <aside id="block-region-side-post" class="emtpy block-region" data-blockregion="side-post" data-droptarget="1"></aside>    </div>
+
+    <footer id="page-footer">
+        <div id="course-footer"></div>
+        <p class="helplink"></p>
+        <div class="logininfo">Heu iniciat sessió com a <a href="http://www.institutmarianao.cat/moodle2/user/profile.php?id=873" title="Mostra el perfil">miquel  martin leiva</a> (<a href="http://www.institutmarianao.cat/moodle2/login/logout.php?sesskey=bEGVb1FKLH">Surt</a>)</div><div class="homelink"><a href="http://www.institutmarianao.cat/moodle2/course/view.php?id=2">DAM2-M3</a></div>    </footer>
+
+    <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'http://www.institutmarianao.cat/moodle2/lib/requirejs.php/1518706744/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+
+    paths: {
+        jquery: 'http://www.institutmarianao.cat/moodle2/lib/javascript.php/1518706744/lib/jquery/jquery-1.11.2.min',
+        jqueryui: 'http://www.institutmarianao.cat/moodle2/lib/javascript.php/1518706744/lib/jquery/ui-1.11.4/jquery-ui.min',
+        jqueryprivate: 'http://www.institutmarianao.cat/moodle2/lib/javascript.php/1518706744/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/javascript(3).php"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.yui.add_module({"mathjax":{"name":"mathjax","fullpath":"http:\/\/cdn.mathjax.org\/mathjax\/2.5-latest\/MathJax.js?delayStartupUntil=configured"}});
+
+//]]>
+</script>
+<script type="text/javascript" src="./DAM2-M3_ Exercicis consultes ObjectDB_files/javascript(4).php"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Darrera modificaci\u00f3","name":"Nom","error":"Error","info":"Informaci\u00f3","viewallcourses":"Mostra tots els cursos","morehelp":"M\u00e9s ajuda","loadinghelp":"S'est\u00e0 carregant...","cancel":"Cancel\u00b7la","yes":"S\u00ed","confirm":"Confirma","no":"No","areyousure":"Segur que voleu tirar endavant aquesta acci\u00f3?","closebuttontitle":"Tanca","unknownerror":"Error desconegut"},"repository":{"type":"Tipus","size":"Mida","invalidjson":"Cadena JSON inv\u00e0lida","nofilesattached":"No s'ha adjuntat cap fitxer","filepicker":"Selector de fitxers","logout":"Tanca la sessi\u00f3","nofilesavailable":"Cap fitxer disponible","norepositoriesavailable":"Cap dels vostres repositoris actuals pot retornar fitxers del format requerit.","fileexistsdialogheader":"El fitxer existeix","fileexistsdialog_editor":"Ja s'ha adjuntat un fitxer amb aquest nom al text que esteu editant","fileexistsdialog_filemanager":"Ja s'ha adjuntat un fitxer amb aquest nom","renameto":"Canvia el nom a \"{$a}\"","referencesexist":"Hi ha {$a} \u00e0lies o accessos directes de fitxer que utilitzen aquest fitxer com a font","select":"Selecciona"},"block":{"addtodock":"Minimitza a la barra lateral","undockitem":"Restaura aquest bloc a columna de blocs","dockblock":"Acobla el bloc {$a}","undockblock":"Desacobla el bloc {$a}","undockall":"Restaura tots els blocs a la seva columna","hidedockpanel":"Amaga el tauler d'acoblament","hidepanel":"Amaga el tauler"},"langconfig":{"thisdirectionvertical":"btt"},"admin":{"confirmation":"Confirmaci\u00f3"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var navtreeexpansions4 = [{"id":"expandable_branch_30_1","key":"1","type":30},{"id":"expandable_branch_30_2","key":"2","type":30},{"id":"expandable_branch_30_3","key":"3","type":30},{"id":"expandable_branch_0_mycourses","key":"mycourses","type":0}];
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+Y.use("moodle-core-dock-loader",function() {M.core.dock.loader.initLoader();
+});
+Y.use("moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"4","instance":"4","candock":true,"courselimit":"20","expansionlimit":0});
+});
+Y.use("moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"5","instance":"5","candock":true});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_block_hider(Y, {"id":"inst4","title":"Navegaci\u00f3","preference":"block4hidden","tooltipVisible":"Oculta bloc Navegaci\u00f3","tooltipHidden":"Mostra bloc Navegaci\u00f3"});
+M.util.init_block_hider(Y, {"id":"inst5","title":"Administraci\u00f3","preference":"block5hidden","tooltipVisible":"Oculta bloc Administraci\u00f3","tooltipHidden":"Mostra bloc Administraci\u00f3"});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+ M.util.js_pending('random5af94812dffad4'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5af94812dffad4'); });
+
+});
+//]]>
+</script>
+
+</div>
+
+
+</body></html>

@@ -1,0 +1,2043 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:00:42 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 13461@pc-casa
+
+[2018-04-25 12:00:42 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:00:42 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:00:42 #4 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 13461@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:10:57 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 14047@pc-casa
+
+[2018-04-25 12:10:57 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:10:57 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:10:57 #4 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:10:57 #5 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:10:57 #6 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:10:57 #7 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:10:57 #8 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:10:57 #9 index] 
+Index activation started for class m3.uf6.pe1.oficines.Banc and its subclasses
+
+[2018-04-25 12:10:57 #10 index] 
+Index -102 was cleared
+
+[2018-04-25 12:10:57 #11 index] 
+Index activation batch completed: Size: 1000, Time: 1, Sleep: 1, Last PK: MAX
+
+[2018-04-25 12:10:57 #12 index] 
+Index activation completed for class m3.uf6.pe1.oficines.Banc and its subclasses
+
+[2018-04-25 12:10:57 #13 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:10:57 #14 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 12:10:57 #15 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:10:57 #16 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 14047@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:16:16 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 14257@pc-casa
+
+[2018-04-25 12:16:16 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:16:16 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:16:16 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:16:16 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:16:16 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:16:16 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:16:16 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:16:16 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:16:16 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:16:16 #11 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 12:16:16 #12 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:16:16 #13 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 14257@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:17:54 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 14318@pc-casa
+
+[2018-04-25 12:17:54 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:17:55 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:17:55 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:17:55 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:17:55 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:17:55 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:17:55 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:17:55 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:17:55 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:17:55 #11 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 12:17:55 #12 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:17:55 #13 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 14318@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:19:11 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 14369@pc-casa
+
+[2018-04-25 12:19:11 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:19:11 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:19:11 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:19:11 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:19:11 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:19:11 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:19:11 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:19:11 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:19:11 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:19:11 #11 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 12:19:11 #12 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:21:37 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 14509@pc-casa
+
+[2018-04-25 12:21:37 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:21:37 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:21:37 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:21:37 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:21:37 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:21:37 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:21:37 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:21:37 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:21:37 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:21:38 #11 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 12:21:38 #12 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:21:38 #13 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 14509@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:22:47 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 14561@pc-casa
+
+[2018-04-25 12:22:47 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:22:47 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:22:47 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:22:47 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:22:47 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:22:48 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 14561@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:23:57 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 14623@pc-casa
+
+[2018-04-25 12:23:57 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:23:57 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:23:57 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:23:57 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:23:57 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:23:57 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:23:57 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:23:57 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:23:57 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:23:57 #11 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 12:23:57 #12 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:23:58 #13 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 14623@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:24:54 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 14677@pc-casa
+
+[2018-04-25 12:24:54 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:24:54 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:24:54 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:24:54 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:24:54 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:24:54 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:24:54 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:24:54 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:24:55 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:24:55 #11 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 12:24:55 #12 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:24:55 #13 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 14677@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:26:52 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 14802@pc-casa
+
+[2018-04-25 12:26:52 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:26:52 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:26:52 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:26:52 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:26:52 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:26:52 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:26:52 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:26:52 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:26:52 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:26:52 #11 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 12:26:52 #12 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:26:53 #13 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 14802@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:28:30 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 14855@pc-casa
+
+[2018-04-25 12:28:30 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:28:30 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:28:30 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:28:30 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:28:30 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:28:30 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:28:30 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:28:30 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:28:30 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:28:30 #11 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 12:28:30 #12 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:28:30 #13 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 14855@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:29:29 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 14914@pc-casa
+
+[2018-04-25 12:29:29 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:29:29 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:29:29 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:29:29 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:29:29 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:29:29 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 14914@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:29:43 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 14943@pc-casa
+
+[2018-04-25 12:29:43 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:29:43 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:29:43 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:29:43 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:29:43 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:29:43 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:29:43 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:29:43 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:29:43 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:29:43 #11 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 12:29:43 #12 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:29:43 #13 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 14943@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:33:16 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 15136@pc-casa
+
+[2018-04-25 12:33:16 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:33:16 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:33:16 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:33:16 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:33:16 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:33:16 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:33:16 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:33:16 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:33:16 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:33:17 #11 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 12:33:17 #12 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:33:17 #13 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 15136@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:35:12 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 15290@pc-casa
+
+[2018-04-25 12:35:12 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:35:12 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:35:12 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:35:12 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:35:12 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:35:13 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 15290@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:37:23 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 15372@pc-casa
+
+[2018-04-25 12:37:23 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:37:23 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:37:23 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:37:23 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:37:23 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:37:23 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 15372@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:40:28 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 15585@pc-casa
+
+[2018-04-25 12:40:28 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:40:28 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:40:28 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:40:28 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:40:28 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:40:28 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 15585@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:41:24 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 15630@pc-casa
+
+[2018-04-25 12:41:24 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:41:24 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:41:24 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:41:24 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:41:24 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:41:24 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 15630@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:41:52 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 15668@pc-casa
+
+[2018-04-25 12:41:52 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:41:52 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:41:52 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:41:52 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:41:52 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:41:52 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 15668@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:47:31 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 15919@pc-casa
+
+[2018-04-25 12:47:31 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:47:31 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:47:31 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:47:31 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:47:31 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:47:31 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 15919@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:48:13 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 15955@pc-casa
+
+[2018-04-25 12:48:13 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:48:13 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:48:13 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:48:13 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:48:13 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 12:48:14 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 15955@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:49:33 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 15995@pc-casa
+
+[2018-04-25 12:49:33 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:49:33 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:49:33 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:49:33 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:49:33 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:49:33 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:49:33 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:49:33 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:49:33 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:49:33 #11 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 15995@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:57:47 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 16298@pc-casa
+
+[2018-04-25 12:57:47 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:57:47 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:57:47 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:57:47 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:57:47 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:57:47 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:57:47 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:57:47 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:57:47 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:57:47 #11 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 16298@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 12:59:01 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 16344@pc-casa
+
+[2018-04-25 12:59:01 #2 store] 
+Configuration path: ?
+
+[2018-04-25 12:59:01 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 12:59:01 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 12:59:01 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 12:59:01 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 12:59:01 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 12:59:01 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 12:59:01 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 12:59:01 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 12:59:01 #11 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 16344@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 13:02:20 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 16480@pc-casa
+
+[2018-04-25 13:02:20 #2 store] 
+Configuration path: ?
+
+[2018-04-25 13:02:20 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 13:02:20 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 13:02:20 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 13:02:20 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 13:02:20 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 13:02:20 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 13:02:20 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 13:02:20 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 13:02:20 #11 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 16480@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 13:04:28 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 16537@pc-casa
+
+[2018-04-25 13:04:28 #2 store] 
+Configuration path: ?
+
+[2018-04-25 13:04:28 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 13:04:28 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 13:04:28 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 13:04:28 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 13:04:28 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 13:04:28 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 13:04:28 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 13:04:28 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 13:07:16 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 16708@pc-casa
+
+[2018-04-25 13:07:16 #2 store] 
+Configuration path: ?
+
+[2018-04-25 13:07:17 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 13:07:17 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 13:07:17 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 13:07:17 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 13:07:17 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 13:07:17 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 13:07:17 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 13:07:17 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 13:07:17 #11 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 16708@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 13:08:07 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 16749@pc-casa
+
+[2018-04-25 13:08:07 #2 store] 
+Configuration path: ?
+
+[2018-04-25 13:08:07 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 13:08:07 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 13:08:07 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 13:08:07 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 13:08:07 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 13:08:07 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 13:08:07 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 13:08:07 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 13:08:07 #11 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 16749@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 13:09:48 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 16861@pc-casa
+
+[2018-04-25 13:09:48 #2 store] 
+Configuration path: ?
+
+[2018-04-25 13:09:48 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 13:09:48 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 13:09:48 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 13:09:48 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 13:09:48 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 13:09:48 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 13:09:48 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 13:09:48 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 13:09:48 #11 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 16861@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 13:12:34 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 17031@pc-casa
+
+[2018-04-25 13:12:34 #2 store] 
+Configuration path: ?
+
+[2018-04-25 13:12:35 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 13:12:35 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 13:12:35 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 13:12:35 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 13:12:35 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 13:12:35 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 13:12:35 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 13:12:35 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 13:12:36 #11 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 13:12:36 #12 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 13:12:36 #13 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 17031@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:11:14 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 19399@pc-casa
+
+[2018-04-25 14:11:14 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:11:14 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:11:14 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:11:14 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:11:14 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:11:14 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 19399@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:12:59 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 19484@pc-casa
+
+[2018-04-25 14:12:59 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:12:59 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:12:59 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:12:59 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:12:59 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:13:00 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 19484@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:13:12 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 19511@pc-casa
+
+[2018-04-25 14:13:12 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:13:12 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:13:12 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:13:12 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:13:12 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:13:13 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 19511@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:13:48 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 19544@pc-casa
+
+[2018-04-25 14:13:48 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:13:48 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:13:48 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:13:48 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:13:48 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:13:48 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 19544@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:14:15 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 19577@pc-casa
+
+[2018-04-25 14:14:15 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:14:15 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:14:15 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:14:15 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:14:15 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:14:15 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 19577@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:14:27 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 19602@pc-casa
+
+[2018-04-25 14:14:27 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:14:27 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:14:27 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:14:27 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:14:27 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:14:27 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 19602@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:17:08 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 19753@pc-casa
+
+[2018-04-25 14:17:08 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:17:08 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:17:08 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:17:08 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:17:08 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:17:08 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 19753@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:17:19 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 19779@pc-casa
+
+[2018-04-25 14:17:19 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:17:19 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:17:19 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:17:19 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:17:19 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:17:19 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 19779@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:17:28 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 19805@pc-casa
+
+[2018-04-25 14:17:28 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:17:28 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:17:28 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:17:28 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:17:28 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:17:28 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 19805@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:35:30 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 20397@pc-casa
+
+[2018-04-25 14:35:30 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:35:30 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:35:30 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:35:30 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:35:30 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:35:30 #7 type.registry] 
+New type java.lang.Object[]
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:36:33 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' has been recovered (tr. 15-15)
+
+[2018-04-25 14:36:33 #2 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 20444@pc-casa
+
+[2018-04-25 14:36:33 #3 store] 
+Configuration path: ?
+
+[2018-04-25 14:36:33 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:36:33 #5 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:36:33 #6 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:36:33 #7 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:37:19 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 20478@pc-casa
+
+[2018-04-25 14:37:19 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:37:19 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:37:19 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:37:19 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:37:19 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:37:19 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 20478@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:37:43 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 20508@pc-casa
+
+[2018-04-25 14:37:43 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:37:43 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:37:43 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:37:43 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:37:43 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:37:43 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 20508@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:37:57 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 20532@pc-casa
+
+[2018-04-25 14:37:57 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:37:57 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:37:57 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:37:57 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:37:57 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:37:58 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 20532@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:38:26 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 20562@pc-casa
+
+[2018-04-25 14:38:26 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:38:26 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:38:26 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:38:26 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:38:26 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:38:27 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 20562@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:38:57 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 20587@pc-casa
+
+[2018-04-25 14:38:57 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:38:57 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:38:57 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:38:57 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:38:57 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:38:57 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 20587@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:39:17 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 20663@pc-casa
+
+[2018-04-25 14:39:17 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:39:17 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:39:17 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:39:17 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:39:17 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:39:17 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 20663@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:39:33 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 20693@pc-casa
+
+[2018-04-25 14:39:33 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:39:33 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:39:33 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:39:33 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:39:33 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:39:33 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 20693@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:43:10 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 20891@pc-casa
+
+[2018-04-25 14:43:10 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:43:11 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:43:11 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:43:11 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:43:11 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:44:12 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 20931@pc-casa
+
+[2018-04-25 14:44:12 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:44:12 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:44:12 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:44:12 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:44:12 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:45:40 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21051@pc-casa
+
+[2018-04-25 14:45:40 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:45:41 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:45:41 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:45:41 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:45:41 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:45:41 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21051@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:45:54 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21078@pc-casa
+
+[2018-04-25 14:45:54 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:45:54 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:45:54 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:45:54 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:45:54 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:45:54 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21078@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:46:42 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21110@pc-casa
+
+[2018-04-25 14:46:42 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:46:42 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:46:42 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:46:42 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:46:42 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:46:42 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21110@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:50:37 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21297@pc-casa
+
+[2018-04-25 14:50:37 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:50:37 #3 type.registry] 
+New type m3.uf6.pe1.oficines.Banc
+
+[2018-04-25 14:50:37 #4 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:50:37 #5 type.registry] 
+New type m3.uf6.pe1.oficines.Oficina
+
+[2018-04-25 14:50:37 #6 type.registry] 
+New type java.util.LinkedList<m3.uf6.pe1.oficines.Oficina>
+
+[2018-04-25 14:50:37 #7 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:50:37 #8 type.registry] 
+New type m3.uf6.pe1.oficines.Municipi
+
+[2018-04-25 14:50:37 #9 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:50:37 #10 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2018-04-25 14:50:37 #11 type.registry] 
+New type java.lang.Object[]
+
+[2018-04-25 14:50:38 #12 type.registry] 
+New type m3.uf6.pe1.oficines.OficinaServired
+
+[2018-04-25 14:50:38 #13 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:50:39 #14 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21297@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:50:53 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21331@pc-casa
+
+[2018-04-25 14:50:53 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:50:53 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:50:53 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:50:53 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:50:53 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:50:53 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21331@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:51:34 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21375@pc-casa
+
+[2018-04-25 14:51:34 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:51:34 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:51:34 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:51:34 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:51:34 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:51:34 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21375@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:51:51 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21404@pc-casa
+
+[2018-04-25 14:51:51 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:51:52 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:51:52 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:51:52 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:51:52 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:51:52 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21404@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:52:55 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21449@pc-casa
+
+[2018-04-25 14:52:55 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:52:55 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:52:55 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:52:55 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:52:55 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:52:55 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21449@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:53:14 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21481@pc-casa
+
+[2018-04-25 14:53:14 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:53:14 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:53:14 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:53:14 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:53:14 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:53:14 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21481@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:53:29 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21508@pc-casa
+
+[2018-04-25 14:53:29 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:53:29 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:53:29 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:53:29 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:53:29 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:53:29 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21508@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:54:29 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21552@pc-casa
+
+[2018-04-25 14:54:29 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:54:29 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:54:29 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:54:29 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:54:29 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:54:29 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21552@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:54:54 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21587@pc-casa
+
+[2018-04-25 14:54:54 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:54:54 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:54:54 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:54:54 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:54:54 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:54:54 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21587@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:55:42 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21701@pc-casa
+
+[2018-04-25 14:55:42 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:55:42 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:55:42 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:55:42 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:55:42 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:55:42 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21701@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 14:55:50 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21725@pc-casa
+
+[2018-04-25 14:55:50 #2 store] 
+Configuration path: ?
+
+[2018-04-25 14:55:50 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 14:55:50 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 14:55:50 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 14:55:50 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 14:55:50 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21725@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 15:04:12 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 21988@pc-casa
+
+[2018-04-25 15:04:12 #2 store] 
+Configuration path: ?
+
+[2018-04-25 15:04:12 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 15:04:12 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 15:04:12 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 15:04:12 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 15:04:12 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 21988@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 15:04:58 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 22022@pc-casa
+
+[2018-04-25 15:04:58 #2 store] 
+Configuration path: ?
+
+[2018-04-25 15:04:58 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 15:04:58 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 15:04:58 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 15:04:58 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 15:05:10 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 22121@pc-casa
+
+[2018-04-25 15:05:10 #2 store] 
+Configuration path: ?
+
+[2018-04-25 15:05:10 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 15:05:10 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 15:05:10 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 15:05:10 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 15:05:11 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 22121@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 15:07:10 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 22199@pc-casa
+
+[2018-04-25 15:07:10 #2 store] 
+Configuration path: ?
+
+[2018-04-25 15:07:10 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 15:07:10 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 15:07:10 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 15:07:10 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 15:07:11 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 22199@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 15:07:29 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 22224@pc-casa
+
+[2018-04-25 15:07:29 #2 store] 
+Configuration path: ?
+
+[2018-04-25 15:07:29 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 15:07:29 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 15:07:29 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 15:07:29 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 15:07:29 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 22224@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 15:07:41 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 22251@pc-casa
+
+[2018-04-25 15:07:41 #2 store] 
+Configuration path: ?
+
+[2018-04-25 15:07:41 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 15:07:41 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 15:07:41 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 15:07:41 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 15:07:41 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 22251@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 15:07:50 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 22277@pc-casa
+
+[2018-04-25 15:07:50 #2 store] 
+Configuration path: ?
+
+[2018-04-25 15:07:50 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 15:07:50 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 15:07:50 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 15:07:50 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 15:07:50 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 22277@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 15:07:56 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 22301@pc-casa
+
+[2018-04-25 15:07:56 #2 store] 
+Configuration path: ?
+
+[2018-04-25 15:07:56 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 15:07:56 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 15:07:56 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 15:07:56 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 15:07:56 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 22301@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 15:08:20 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 22330@pc-casa
+
+[2018-04-25 15:08:20 #2 store] 
+Configuration path: ?
+
+[2018-04-25 15:08:20 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 15:08:20 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 15:08:20 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 15:08:20 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 15:08:20 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 22330@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 15:08:26 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 22352@pc-casa
+
+[2018-04-25 15:08:26 #2 store] 
+Configuration path: ?
+
+[2018-04-25 15:08:26 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 15:08:26 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 15:08:26 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 15:08:26 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 15:08:26 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 22352@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-25 15:08:31 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is opened by 22375@pc-casa
+
+[2018-04-25 15:08:31 #2 store] 
+Configuration path: ?
+
+[2018-04-25 15:08:31 #3 type] 
+Type m3.uf6.pe1.oficines.Banc is not enhanced.
+
+[2018-04-25 15:08:31 #4 type] 
+Type m3.uf6.pe1.oficines.Oficina is not enhanced.
+
+[2018-04-25 15:08:31 #5 type] 
+Type m3.uf6.pe1.oficines.Municipi is not enhanced.
+
+[2018-04-25 15:08:31 #6 type] 
+Type m3.uf6.pe1.oficines.OficinaServired is not enhanced.
+
+[2018-04-25 15:08:32 #7 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-Pe1/db/oficines.odb' is closed by 22375@pc-casa
+

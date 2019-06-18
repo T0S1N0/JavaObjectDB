@@ -1,0 +1,22 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-04 13:41:23 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-FXML/db/examens.odb' is opened by 15825@pc-casa
+
+[2018-04-04 13:41:23 #2 store] 
+Configuration path: ?
+
+[2018-04-04 13:45:45 #3 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-FXML/db/examens.odb' is closed by 15825@pc-casa
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-04-04 13:45:48 #1 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-FXML/db/examens.odb' is opened by 16004@pc-casa
+
+[2018-04-04 13:45:48 #2 store] 
+Configuration path: ?
+
+[2018-04-04 13:47:29 #3 store] 
+Database '/opt/dades/alex/workspace_java/201718-UF6-FXML/db/examens.odb' is closed by 16004@pc-casa
+
